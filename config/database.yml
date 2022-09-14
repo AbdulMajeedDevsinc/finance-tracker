@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: finance-tracker_development
+  database: finance_tracker_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
